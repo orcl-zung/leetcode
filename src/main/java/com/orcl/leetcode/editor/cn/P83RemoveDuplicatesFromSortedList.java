@@ -29,6 +29,8 @@
 
 package com.orcl.leetcode.editor.cn;
 
+import com.orcl.leetcode.editor.cn.support.ListNode;
+
 /**
  * @description: 删除排序链表中的重复元素
  * @date: 2022-03-07 11:42:39
@@ -65,21 +67,4 @@ public class P83RemoveDuplicatesFromSortedList {
         }
     }
     //leetcode submit region end(Prohibit modification and deletion)
-
-    static class ListNode {
-        int      val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
 }
